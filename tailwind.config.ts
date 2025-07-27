@@ -61,7 +61,16 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// CineMatch Cinema Colors
+				'cinema-dark': 'hsl(var(--cinema-dark))',
+				'cinema-darker': 'hsl(var(--cinema-darker))',
+				'cinema-light': 'hsl(var(--cinema-light))',
+				'cinema-accent': 'hsl(var(--cinema-accent))',
+				'cinema-gold': 'hsl(var(--cinema-gold))',
+				'tmdb-blue': 'hsl(var(--tmdb-blue))',
+				'tmdb-green': 'hsl(var(--tmdb-green))',
+				'tmdb-light-blue': 'hsl(var(--tmdb-light-blue))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
