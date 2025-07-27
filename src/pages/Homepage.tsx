@@ -61,11 +61,7 @@ export function Homepage() {
       {/* Content Sections */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Trending Today */}
-        <CarouselRow
-          title="Trending Today"
-          id="trending-carousel"
-          containerClassName="bg-blue-500"
-        >
+        <CarouselRow title="Trending Today" id="trending-carousel">
           {trending.map((item) => (
             <MovieCard key={item.id} item={item} />
           ))}
